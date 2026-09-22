@@ -1,0 +1,13 @@
+match (int(input("введите год ")) - 1996) % 12:
+    case 0: print("крыса")
+    case 1: print("корова")
+    case 2: print("тигр")
+    case 3: print("заяц")
+    case 4: print("дракон")
+    case 5: print("змея")
+    case 6: print("лошадь")
+    case 7: print("овца")
+    case 8: print("обезьяна")
+    case 9: print("петух")
+    case 10: print("собака")
+    case 11: print("свинья")
